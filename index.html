@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+  <head>
+    <link href="file:///Users/gbven/Desktop/connect-four/main.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <table id="connect-four">
+      <tr>
+        <td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+      </tr>
+      <tr>
+        <td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+      </tr>
+      <tr>
+        <td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+      </tr>
+      <tr>
+        <td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+      </tr>
+      <tr>
+        <td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+      </tr>
+      <tr>
+        <td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+      </tr>
+    </table>
+    <p id="busy" style="visibility: hidden;">computing... please wait</p>
+    <div id="startButton">click here to let computer start first</div> 
+    <p>
+    <form id="form">max search depth of computer: <input type="number" min="2" value="8">
+      <a href="javascript: changeDepth()"><div id="changeButton">change</div></a>
+    </form>
+  </body>
+
+  <script src="main.js"></script>
+</html>

@@ -1,0 +1,32 @@
+table {
+  border: 2px solid black;
+  background-color: #FFFFCC;
+}
+
+td {
+  border: 5px solid #FFFF99;
+  height: 80px;
+  width: 80px;
+  border-radius: 100%;
+  background-color: white;
+}
+
+#startButton {
+  background-color: blue;
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+  border: 2px solid black;
+  cursor: pointer;
+  display: inline;
+}
+
+#changeButton {
+  background-color: blue;
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+  border: 2px solid black;
+  cursor: pointer;
+  display: inline;
+}
